@@ -1,0 +1,141 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #e6e6e6;
+ }
+
+ .container {
+     background-color: rgb(242, 243, 243);
+     width: 70%;
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     padding: 0 20px ;
+     max-width: 500px;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+ }
+
+ .title {
+     margin: 10px 0;
+     border-bottom: 1px solid tomato;
+     width: 100%;
+     display: block;
+     text-align: center;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+ }
+
+ form button {
+     padding: 10px 20px;
+     margin: 20px auto;
+     width: 100%;
+     display: block;
+     text-decoration: none;
+     outline: none;
+     border: none;
+
+ }
+
+ input {
+     padding: 10px;
+     outline: none;
+     border: 0;
+
+     cursor: pointer;
+     background-color: rgb(255, 255, 255);
+     width: 100%;
+     text-transform: capitalize;
+     text-decoration: none;
+
+ }
+
+ button {
+     text-transform: capitalize;
+     font-weight: 600;
+     background-color: aquamarine;
+     cursor: pointer;
+ }
+
+ button:hover {
+     background-color: aqua;
+ }
+
+ h1 {
+     text-transform: capitalize;
+     font-size: 20px;
+     padding: 5px;
+ }
+
+ p {
+     text-transform: capitalize;
+     padding: 5px;
+     font-size: 16px;
+ }
+
+ .list_item {
+     background-color: rgb(235, 233, 233);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     padding: 10px;
+     margin:10px 0;
+
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+
+
+
+ }
+
+ .row {
+     display: flex;
+     width: 100%;
+     gap: 10px;
+     align-items: center;
+
+ }
+
+ label {
+     max-width: 70px;
+     min-width: 70px;
+     background-color: rgb(255, 255, 255);
+     padding: 10px;
+     font-size: 15px;
+     font-weight: 600;
+     text-transform: capitalize;
+
+ }
+
+ .list_item button {
+     padding: 10px 20px;
+
+     width: 100%;
+     display: block;
+     text-decoration: none;
+     outline: none;
+     border: none;
+ }
+
+ abbr[title] {
+     text-decoration: none !important;
+ }
+
+ @media screen and (max-width:768px) {
+     .list_item {
+         width: 100%;
+     }
+
+ }
